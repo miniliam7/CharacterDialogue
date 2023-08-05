@@ -1,6 +1,6 @@
 plugins {
 	id 'java'
-	id "com.github.johnrengelman.shadow" version "7.1.2"
+	id "com.github.johnrengelman.shadow" version "8.1.1"
 }
 
 repositories {
@@ -33,15 +33,15 @@ repositories {
 }
 
 dependencies {
-    compileOnly 'org.spigotmc:spigot-api:1.16.5-R0.1-SNAPSHOT'
-    compileOnly 'net.citizensnpcs:citizensapi:2.0.28-SNAPSHOT'
+    compileOnly 'org.spigotmc:spigot-api:1.19.4-R0.1-SNAPSHOT'
+    compileOnly 'net.citizensnpcs:citizensapi:2.0.31-SNAPSHOT'
     compileOnly 'net.md-5:bungeecord-chat:1.8-SNAPSHOT'
-    compileOnly 'com.gmail.filoghost.holographicdisplays:holographicdisplays-api:2.4.9'
+    compileOnly 'com.gmail.filoghost.holographicdisplays:holographicdisplays-api:3.0.2'
     compileOnly 'me.clip:placeholderapi:2.10.9'
-    implementation 'me.fixeddev:commandflow-universal:0.4.5'
-    implementation 'me.fixeddev:commandflow-bukkit:0.4.0'
-    compileOnly 'org.apache.logging.log4j:log4j-api:2.17.2'
-	compileOnly 'org.apache.logging.log4j:log4j-core:2.17.2'
+    implementation 'me.fixeddev:commandflow-universal:0.5.3'
+    implementation 'me.fixeddev:commandflow-bukkit:0.5.0'
+    compileOnly 'org.apache.logging.log4j:log4j-api:2.20.0'
+	compileOnly 'org.apache.logging.log4j:log4j-core:2.20.0'
     
 }
 
